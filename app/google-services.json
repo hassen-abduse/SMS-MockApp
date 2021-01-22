@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "842961100519",
+    "firebase_url": "https://feedall-default-rtdb.firebaseio.com",
+    "project_id": "feedall",
+    "storage_bucket": "feedall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842961100519:android:e3f4b87749fd700807cc42",
+        "android_client_info": {
+          "package_name": "com.abduselam.sms_mockapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842961100519-k0gsomc8sub1hu95d1bbo3m3ptv4bqqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVRDpzrP5jcAGLaKd5ISZkEnh4qhQ6SIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842961100519-k0gsomc8sub1hu95d1bbo3m3ptv4bqqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
