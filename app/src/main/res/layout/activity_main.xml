@@ -16,22 +16,12 @@
         android:orientation="vertical"
         android:padding="8sp">
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            tools:srcCompat="@android:drawable/btn_star_big_on">
-
-        </ImageButton>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_weight="1"
-            android:background="#EAF3F2"
             android:text="@string/_8010"
+            android:padding="10sp"
             android:textAlignment="center"
             android:textSize="20sp"
             android:textStyle="bold"></TextView>
@@ -50,7 +40,8 @@
             android:layout_gravity="right"
             android:layout_margin="30sp"
             android:layout_marginBottom="40sp"
-            android:background="@color/purple_500"
+            android:background="@drawable/rounded"
+            android:paddingTop="15sp"
             android:padding="15sp"
             android:text="@string/amount_text"
             android:textColor="@color/white"
@@ -64,9 +55,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_margin="30sp"
+            android:layout_marginLeft="0sp"
+            android:paddingLeft="0sp"
             android:layout_marginTop="40sp"
             android:layout_marginBottom="10sp"
-            android:background="#F1EEEE"
+            android:background="@drawable/rounded_corner"
             android:padding="20sp"
             android:text="@string/thanks_text"
             android:textSize="20sp"
@@ -94,6 +87,7 @@
         </EditText>
 
         <Button
+            android:background="@drawable/rounded"
             android:id="@+id/send_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

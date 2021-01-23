@@ -2,7 +2,7 @@
     <string name="app_name">Messages</string>
     <string name="_8010">8010</string>
     <string name="amount_text">10</string>
-    <string name="thanks_text">Thank you!\nYou have succesfully donated to\nFeed All.</string>
+    <string name="thanks_text">Thank you!\nYou have succesfully\ndonated to\nFeed All.</string>
     <string name="send_button_text">SEND</string>
     <string name="text_message">Text Message</string>
 </resources>
