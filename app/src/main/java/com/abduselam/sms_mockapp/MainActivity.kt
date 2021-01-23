@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
             transaction["entity"] = "0925610101"
             transaction["enitiy_name"] = "0925610101"
             transaction["payment_system"] = 3
-            transaction["timestamp"] = java.util.Calendar.getInstance()
+            transaction["timestamp"] = java.util.Calendar.getInstance().time
             transaction["type"] = 1
             db.collection("transactions")
                     .add(transaction)
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
                                             .update("amount", newAmountValue)
                                             .addOnSuccessListener {
                                                 thanksTextView.text =
-                                                        "Thank You!!\nYou have\nsuccessfully\ndonated $message Birr\n to Feed All."
+                                                        "Thank You!!\nYou have successfully\ndonated $message Birr to\nFeed All."
                                                 thanksTextView.visibility = View.VISIBLE
                                             }
                                 }
